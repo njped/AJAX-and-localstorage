@@ -1,0 +1,6 @@
+<h1>Hello World</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique debitis explicabo, iure ex fugit natus minima delectus deleniti fugiat dicta recusandae nam vero quidem consequuntur aliquid, animi cum harum eum!</p>
+<h3>These are my hobbies</h3>
+<ul>
+<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique debitis explicabo, iure ex fugit natus minima delectus deleniti fugiat dicta recusandae nam vero quidem consequuntur aliquid, animi cum harum eum!</li>
+</ul>

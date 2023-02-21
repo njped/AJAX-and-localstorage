@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Example</title>
+    <script>
+
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('demo').innerHTML = this.responseText;
+                }
+            }
+            xhttp.open('GET', 'ajax-info.txt', true);
+            xhttp.send();
+        }
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Demo AJAX</h1>
+        <button onclick="loadDoc()">Get Data</button>
+        <div id="demo">
+
+        </div>
+    </div>
+</body>
+</html>
